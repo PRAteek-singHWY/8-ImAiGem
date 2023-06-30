@@ -32,7 +32,7 @@ const CreatePost = () => {
           //response
           const response = await fetch
             //fetching
-            ("http://localhost:8080/api/v1/dalle"
+            ("https://imaigem.onrender.com/api/v1/dalle"
               ,
               //method
               {
@@ -82,7 +82,7 @@ const CreatePost = () => {
 //from  here we are getting redirected to home 
       
           
-        const response = await fetch("http://localhost:8080/api/v1/post",
+        const response = await fetch("https://imaigem.onrender.com/api/v1/post",
           {
             method: "POST",
             headers: {

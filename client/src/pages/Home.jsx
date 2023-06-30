@@ -63,7 +63,7 @@ const [searchTimeout, setSearchTimeout] = useState(null)
 
       try {
         //fetching
-        const response = await fetch("http://localhost:8080/api/v1/post",
+        const response = await fetch("https://imaigem.onrender.com/api/v1/post",
 
           {
             //method
